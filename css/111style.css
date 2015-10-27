@@ -1,0 +1,141 @@
+
+body {
+    background: #eee;
+    font-family: 'aharoni';
+  
+}
+
+a {
+    color: #47AB3E;
+    font-weight:300;
+}
+
+span {
+    font-weight: 300;
+    color: #E3611B;
+}
+
+.mlogin {
+    margin: 170px auto 0;
+}
+
+.mregister {
+    margin: 170px auto 0;
+}
+
+.mrestore {
+    margin: 170px auto 0;
+}
+
+.error {
+    margin: 40px auto 0;
+    border: 1px solid #777;
+    padding: 3px;
+    color: #ddd;
+    text-align: center;
+	font-size: 25px;
+    width: 600px;
+    background: #D10000;
+}
+
+.regtext {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #111;
+}
+
+/*= CONTAINERS
+--------------------------------------------------------*/
+.container {
+    padding: 25px 16px 25px 10px;
+    font-weight: 420;
+    overflow: hidden;
+    width: 450px;
+    height: auto;
+    background: #fff;
+}
+
+#welcome {
+    width: 450px;
+    padding: 30px;
+    background: #fff;
+    margin: 160px auto 0;
+   
+}
+
+.container h1 {
+    color: #333;
+    text-align: center;
+	vertical-align: middle; 
+	width: 100%;
+	font-weight: 320px;
+    border: 5px double #ddd;
+    margin-top: 13px;
+}
+
+.container label {
+    color: #777;
+    font-size: 14px;
+}
+
+#login {
+    width: 320px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.container form .input,.container input[type=text],.container input[type=password],.container input[type=email] {
+    background: #fbfbfb;
+    font-size: 24px;
+    line-height: 1;
+    width: 100%;
+    padding: 3px;
+    margin: 0 6px 5px 0;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+
+.container form .input:focus {
+    border: 1px solid #CFCF29;
+    -webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+    -moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+    box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+}
+
+
+/*= BUTTONS
+--------------------------------------------------------*/
+
+.button{
+	border: solid 1px #ccc;
+	background: #56D14B;
+	color: #222;
+	padding: 12px 20;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	width: 40%;
+	margin-top: center;
+	float: center;
+	cursor: pointer;
+	font-family: 'aharoni';
+	font-size: 25px;
+    text-align: left;
+}
+
+
+.button:hover{
+background: #47AB3E;
+
+}
+
+
+
+/*= FOOTER
+--------------------------------------------------------*/
+footer {
+    color: #101010;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
